@@ -1,0 +1,9 @@
+@extends('firebase.app')
+@section('content')
+    @include('header')
+    @include('features')
+    @include('testimonials')
+    @include('blogs')
+    @include('call')
+    @include('footer')
+@endsection
